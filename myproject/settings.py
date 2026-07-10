@@ -81,14 +81,13 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'donor_db',
-        'USER': 'postgres',      
-        'PASSWORD': '9942@baskar',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': '<donors table>',
+        'USER': '<jeyasakthi>',
+        'PASSWORD': '<9942@baskar>',
+        'HOST': '<host from Render>',
+        'PORT': '<port from Render>',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
