@@ -78,16 +78,21 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
-DATABASES = {
+
+ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '<donors table>',
-        'USER': '<jeyasakthi>',
-        'PASSWORD': '<9942@baskar>',
-        'HOST': '<host from Render>',
-        'PORT': '<port from Render>',
+        'NAME': 'neondb',
+        'USER': 'neondb_owner',
+        'PASSWORD': 'npg_M0yrbOcZJpf1',
+        'HOST': 'ep-mute-meadow-atg47i4y-pooler.c-9.us-east-1.aws.neon.tech',
+        'PORT': '5432',
+        'OPTIONS': {
+            'sslmode': 'require',
+        },
     }
-}
+}   
+
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
