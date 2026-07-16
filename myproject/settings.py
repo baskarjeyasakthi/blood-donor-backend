@@ -91,7 +91,8 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
             'sslmode': 'require',
         },
     }
-}   
+}
+    
 
 
 # Password validation
